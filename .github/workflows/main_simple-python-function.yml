@@ -41,7 +41,10 @@ jobs:
         with:
           name: python-app
           path: |
-            . 
+            .
+            simple-python-function
+            simple-python-function1
+            simple-python-function2
             !venv/
 
   deploy:
